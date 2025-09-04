@@ -53,3 +53,8 @@ ready signal은 destination에서 source로 이동
 | B | Destination | Source |
 | AR | Source | Destination |
 | R | Destination | Source |
+
+### Difference between transfer and transaction
+
+transfer는 한 채널에서 VALID, READY신호의 단일 교환 
+transaction은 전체 채널에서 VALID, READY신호 교환
