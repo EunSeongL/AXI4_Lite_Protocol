@@ -25,7 +25,7 @@ module AXI4_Lite_Master (
     input  logic        RVALID,
     output logic        RREADY,
     input  logic [ 1:0] RRESP,
-    // internal signal
+    //internal signal
     input  logic [ 3:0] addr,
     input  logic        write,
     input  logic [31:0] wdata,
@@ -160,13 +160,13 @@ module AXI4_Lite_Master (
     logic [3:0] temp_araddr_reg, temp_araddr_next;
 
     always_ff @(posedge ACLK or posedge ARESETn) begin 
-        if(!ARESET) begin
+        if(!ARESETn) begin
             ar_state <= AR_IDLE;
             temp_araddr_reg <= 0;
         end
         else begin
             ar_state <= ar_state_next;
-            temp_awaddr_reg <= temp_araddr_next;
+            temp_araddr_reg <= temp_araddr_next;
         end
     end
 
@@ -175,14 +175,14 @@ module AXI4_Lite_Master (
         ARADDR = temp_araddr_reg;
         case (ar_state)
             AR_IDLE: begin
-                AR_VALID = 1'b0;
-                temp_araddr_next = addr;
-                if(ready & (!write))begin
-                    ar_state_next = AR_VALID;        
+                ARVALID = 1'b0;
+                if(transfer & (!write))begin
+                    ar_state_next = AR_VALID; 
+                    temp_araddr_next = addr;       
                 end
             end
             AR_VALID: begin
-                AR_VALID = 1'b1;
+                ARVALID = 1'b1;
                 ARADDR = temp_araddr_reg;
                 if(ARREADY) begin
                     ar_state_next = AR_IDLE;
@@ -228,6 +228,5 @@ module AXI4_Lite_Master (
             end 
         endcase
     end
-
 
 endmodule

@@ -200,7 +200,7 @@ module AXI4_Lite_Slave (
         case (r_state)
             R_IDLE:begin
                 RVALID = 1'b0;
-                if(ARVALID & ARREADY) r_state_next = R_READY;
+                if(ARVALID & ARREADY) r_state_next = R_VALID;
             end
             R_VALID:begin
                 RVALID = 1'b1;

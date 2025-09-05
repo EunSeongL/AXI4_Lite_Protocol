@@ -56,12 +56,26 @@ module tb_AXI4_Lite();
         transfer = 1'b0;
         wait(ready);
     endtask //axi_write
-    
+
+    task axi_read(input logic [3:0] axi_addr);
+        @(posedge ACLK);
+        addr     = axi_addr;
+        write    = 1'b0;
+        transfer = 1'b1;
+        @(posedge ACLK);
+        transfer = 1'b0;
+        wait(ready);
+    endtask // axi_read
+
     initial begin
         repeat(3) @(posedge ACLK);
         axi_write(4'h00, 1);
         axi_write(4'h04, 2);
         axi_write(4'h08, 3);
         axi_write(4'h0c, 4);
+        axi_read(4'h00);
+        axi_read(4'h04);
+        axi_read(4'h08);
+        axi_read(4'h0c);
     end
 endmodule
