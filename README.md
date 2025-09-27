@@ -12,7 +12,8 @@
 | :-----: | :-----: |
 | **IDE**   | ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) |
 | **Language** | ![SystemVerilog](https://img.shields.io/badge/SystemVerilog-5C2D91?style=for-the-badge&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) |
-| **EDA**   | <img src="https://img.shields.io/badge/Vivado-00A652?style=for-the-badge&logo=xilinx&logoColor=white"/> <img src="https://img.shields.io/badge/Vitis-FA2E2E?style=for-the-badge&logo=xilinx&logoColor=white"/> |
+| **EDA**   | ![Vivado](https://img.shields.io/badge/Vivado-00A652?style=for-the-badge&logo=xilinx&logoColor=white) ![Vitis](https://img.shields.io/badge/Vitis-FA2E2E?style=for-the-badge&logo=xilinx&logoColor=white) |
+
 
 ## AXI4_Lite_Protocol
 
