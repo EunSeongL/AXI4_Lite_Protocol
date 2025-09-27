@@ -23,11 +23,11 @@
 
 | **AW** | **W** | **B** |
 | :---: | :---: | :---: |
-| <img src="img/Master_AW.png" width="300"/> | <img src="img/Master_W.png" width="300"/> | <img src="img/Master_B.png" width="300"/> |
+| <img src="img/Master_AW.png" width="250"/> | <img src="img/Master_W.png" width="250"/> | <img src="img/Master_B.png" width="250"/> |
 
 | **AR** | **R** |
 | :---: | :---: |
-| <img src="img/Master_AR.png" width="300"/> | <img src="img/Master_R.png" width="300"/> |
+| <img src="img/Master_AR.png" width="250"/> | <img src="img/Master_R.png" width="250"/> |
 
 
 
