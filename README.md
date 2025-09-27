@@ -63,6 +63,10 @@
 
 ## SystemVerilog Verification
 
+### 테스트벤치
+
+#### 📝 [Testbench CODE](./hardware/testbench/tb_AXI4_Lite.sv)
+
 
 ## 📽️ 동작영상
 
