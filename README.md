@@ -17,7 +17,7 @@
 
 ## AXI4_Lite_Protocol
 
-> ARM 사의 AXI4_Lite_Protocol 데이터시트를 참고하여 SETUP과 ACCESS 사이클을 포함한 전송 타이밍을 분석하고 구현하였습니다.
+> ARM사의 AXI4-Lite 데이터시트를 기반으로, 주소 단계(Address Phase), 데이터 단계(Data Phase), 응답 단계(Response Phase)를 포함한 전송 타이밍을 분석하고 구현하였습니다.
 
 #### 📝 [AXI4_Lite_Protocol Spec](./docs/AMBA_AXI.pdf)
 
