@@ -21,6 +21,10 @@
 
 #### 📝 [AXI4_Lite_Protocol Spec](./docs/AMBA_AXI.pdf)
 
+| **AW** | **W** | **B** | **AR** | **R** |
+| :---: | :---: | :---: | :---: | :---: |
+|AXI4_Lite_Protocol/img/Master_AW.png|AXI4_Lite_Protocol/img/Master_W.png|AXI4_Lite_Protocol/img/Master_B.png|AXI4_Lite_Protocol/img/Master_AR.png|AXI4_Lite_Protocol/img/Master_R.png|
+
 ## Memory Map
 
 ## Peripheral Block Diagram
