@@ -17,6 +17,10 @@
 
 ## AXI4_Lite_Protocol
 
+> ARM 사의 AXI4_Lite_Protocol 데이터시트를 참고하여 SETUP과 ACCESS 사이클을 포함한 전송 타이밍을 분석하고 구현하였습니다.
+
+#### 📝 [AXI4_Lite_Protocol Spec](./docs/AMBA_AXI.pdf)
+
 ## Memory Map
 
 ## Peripheral Block Diagram
