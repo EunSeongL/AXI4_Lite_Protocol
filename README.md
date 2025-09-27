@@ -23,11 +23,12 @@
 
 | **AW** | **W** | **B** |
 | :---: | :---: | :---: |
-| ![MASTER AW](img/Master_AW.png) | ![MASTER W](img/Master_W.png) | ![MASTER B](img/Master_B.png) |
+| <img src="img/Master_AW.png" width="150"/> | <img src="img/Master_W.png" width="150"/> | <img src="img/Master_B.png" width="150"/> |
 
 | **AR** | **R** |
 | :---: | :---: |
-| ![MASTER AR](img/Master_AR.png) | ![MASTER R](img/Master_R.png) |
+| <img src="img/Master_AR.png" width="150"/> | <img src="img/Master_R.png" width="150"/> |
+
 
 
 ## Memory Map
