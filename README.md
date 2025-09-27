@@ -21,8 +21,10 @@
 
 #### 📝 [AXI4_Lite_Protocol Spec](./docs/AMBA_AXI.pdf)
 
+### AXI4-Lite Protocol Master & Slave State Machines
 
-#### Master
+<details>
+    <summary> 📝 Master</summary>
 
 | **AW** | **W** | **B** |
 | :---: | :---: | :---: |
@@ -32,7 +34,10 @@
 | :---: | :---: |
 | <img src="img/Master_AR.png" width="250"/> | <img src="img/Master_R.png" width="250"/> |
 
-#### Slave
+</details>
+
+<details>
+    <summary> 📝 Slave</summary>
 
 | **AW** | **W** | **B** |
 | :---: | :---: | :---: |
@@ -42,7 +47,7 @@
 | :---: | :---: |
 | <img src="img/Slave_AR.png" width="250"/> | <img src="img/Slave_R.png" width="250"/> |
 
-
+</details>
 
 ## Memory Map
 
