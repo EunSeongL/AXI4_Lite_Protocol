@@ -21,6 +21,14 @@
 
 #### 📝 [AXI4_Lite_Protocol Spec](./docs/AMBA_AXI.pdf)
 
+### AXI Channel
+
+<details>
+    <summary> 📝 AXI_Channel</summary>
+    <img src="./img/AXI_Channel.png" width=550 height=400><br>
+    <img src="./img/AXI_HandShake.png" width=550 height=400>
+</details>
+
 ### AXI4-Lite Protocol Master & Slave State Machines
 
 <details>
