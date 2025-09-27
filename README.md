@@ -21,9 +21,14 @@
 
 #### 📝 [AXI4_Lite_Protocol Spec](./docs/AMBA_AXI.pdf)
 
-| **AW** | **W** | **B** | **AR** | **R** |
-| :---: | :---: | :---: | :---: | :---: |
-|AXI4_Lite_Protocol/img/Master_AW.png|AXI4_Lite_Protocol/img/Master_W.png|AXI4_Lite_Protocol/img/Master_B.png|AXI4_Lite_Protocol/img/Master_AR.png|AXI4_Lite_Protocol/img/Master_R.png|
+| **AW** | **W** | **B** |
+| :---: | :---: | :---: |
+| ![MASTER AW](img/Master_AW.png) | ![MASTER W](img/Master_W.png) | ![MASTER B](img/Master_B.png) |
+
+| **AR** | **R** |
+| :---: | :---: |
+| ![MASTER AR](img/Master_AR.png) | ![MASTER R](img/Master_R.png) |
+
 
 ## Memory Map
 
