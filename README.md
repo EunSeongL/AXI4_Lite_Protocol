@@ -8,8 +8,6 @@
 - FND Controller, GPIO 등 Peripheral 모듈 설계 및 검증
 - Vitis 기반 C 코드를 통해 동작 제어 및 검증
 
-## 개발 일정
-
 ## 개발 환경
 
 |       | **TOOL** |
