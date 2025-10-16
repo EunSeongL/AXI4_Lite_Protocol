@@ -3,6 +3,10 @@
 ![alt text](img/AXI_BD.png)
 
 ## 프로젝트 개요
+- AXI4-Lite 프로토콜 기반 Master-Slave 하드웨어 구조 설계
+- 독립적인 Read/Write 채널 구조(Address, Data, Response) 분석 및 구현
+- FND Controller, GPIO 등 Peripheral 모듈 설계 및 검증
+- Vitis 기반 C 코드를 통해 동작 제어 및 검증
 
 ## 개발 일정
 
